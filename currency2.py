@@ -1,7 +1,7 @@
 #take input and call the functions
 def main():
     NPR = in_float(input("enter the NPR amount: "))
-    Comission = num(input("Enter the comission amount: "))
+    Comission = num(input("Enter the comission percentage: "))
     USD = NPR / 141 - ( NPR / 141 * Comission)
     print(f"The exchanged currency in USD is: $ {USD}")
 
